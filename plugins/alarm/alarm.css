@@ -1,0 +1,7 @@
+#notices .system.alarm .inner {
+	border: 1px solid #550000;
+	background: #990000 url(alarm.png) no-repeat scroll;
+	padding-left: 200px;
+	color: white;
+	font-weight: bold;
+}

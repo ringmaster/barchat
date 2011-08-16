@@ -1,0 +1,6 @@
+div.meat {
+	width: 450px;
+	height: 72px;
+	display: none;
+	background: url('/plugins/meatwad/meatwad_dancing.gif') repeat-x;
+}

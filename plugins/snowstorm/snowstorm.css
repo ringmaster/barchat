@@ -1,0 +1,28 @@
+html.snowing,
+html.snowing body {
+	background-color: #306CA9;
+	color: white;
+}
+
+html.snowing #notices .user {
+	background-color: #ABB9C5;
+}
+
+html.snowing #notices tr.you td {
+	background-color: #1E446A;
+}
+html.snowing #notices tr.alert td {
+	background-color: #5E7C9B;
+}
+
+html.snowing #notices .datetime .date {
+	background-color: #306CA9;
+}
+
+html.snowing #notices .snow .content,
+#notices .snow .content {
+	background: white url(/plugins/snowstorm/snowstorm.png) scroll no-repeat left top;
+	color: #33496A;
+	font-weight: bold;
+	padding-left: 50px;
+}

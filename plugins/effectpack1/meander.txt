@@ -1,0 +1,260 @@
+%%starts
+	%greeting  %busy
+%%greeting
+	Greetings, %peopletypes!
+	Aloha, %peopletypes!
+	So great to see everyone today!
+	Rise and shine, %peopletypes!
+	Top o' the mornin' to ya!
+	Mornin' Gang.
+	Hola Gents.
+	Whut up, %peopletypes?
+%%busy
+	I'm looking forward to %forward.  %fin
+	I've been busy %act.  %fin
+	Last night %lastnight.  %fin
+	Did you see that %spectacle?  %inspiredopinion
+	It's a beautiful morning for %morningactivity
+%%spectacle
+	woman on TV last night
+	ice cream cake in the fridge
+	explosion over the city
+	wildebeast roaming free in the suburbs
+	hooker on rollerskates
+	llama on a mountainbike
+	bright orange nuclear fallout cloud
+	massive solar flare
+	unadulterated stupefyingly horrific ice capade show
+%%inspiredopinion
+	Wonderful.
+	Glorious.
+	A sight to behold.
+	Tasty.
+	Incroyable!
+%%forward
+	a full day of %project work today
+	the next brain session
+	the coming monthly face-to-face meeting
+%%project
+	Penn
+	PYM
+	CDDEP
+	Venture Fizz
+	DVGBC
+%%fin
+	How about you?
+	How've you been?
+	What're you up to?
+%%act
+	cleaning up all %junk laying around here
+	running around like a maniac trying to %accomplish
+	making a general nuisance of myself
+	reading the dictionary beginning with the word "%rareword"
+%%rareword
+	apodyopsis
+	callipygean
+	concilliabule
+	cheiloproclitic
+	basorexia
+	dippoldism
+	gambrinous
+	grapholagnia
+	jumentous
+	knismesis
+	matronolagnia
+	mumpsimus
+	nudiusterian
+	oculoplania
+	sphallolalia
+	tibialoconcupiscent
+	vesthibistionism
+	ximelolagnia
+%%junk
+	the leftover beer cans
+	the piles of dirty code
+	the defunct servers
+	rancid tofu
+	bacon
+%%lastnight
+	I was out partying and %partyed
+	TV was awesome!  I know you saw %tv
+	I installed %tech
+%%tech
+	a new, even bigger plasma TV
+	a microwave telescope
+	an ultrasonic pest repellant
+	five gallons of whiteboard paint to my office wall
+%%tv
+	the Star Trek marathon (TOS, not DS9 or anything)
+	re-runs of Numb3rs
+	that SNL re-run
+	those idiots on the news
+%%partyed
+	dude...  I WON
+	I completely have no memory of after 9pm
+	if you've seen my pants, please let me know
+	no matter what they say, I wasn't the responsible party
+	there was BACON
+%%accomplish
+	keep these servers from catching fire
+	get a fresh cup of coffee
+	keep all the eggs from falling out of the fridge
+	fry up all of the remaining bacon before it goes bad
+	discover a use for all of this copy paper I bought
+	put an end to world hunger using only a roll of toilet paper and sheer will
+%%michael
+	%greeting %michaelnight %fin
+	%starts
+%%michaelnight
+	Last night I %baractivity at %bar.
+	Yesterday, the school called %schoolactivity.
+%%baractivity
+	passed out
+	drank a lot
+	ate the most delicious wings
+	had a burger
+	won a bet by eating bacon
+%%bar
+	Union Jack's
+	Victory
+	Grubstake
+	TJ's
+	National Mechanics
+%%schoolactivity
+	and asked me to substitute teach
+	to tell me to pick up the skateboard they confiscated
+	about my honorary diploma
+%%mark
+	%greeting %marknight %fin
+	%starts
+%%marknight
+	I'm getting really good at %videogame, having played all last night.
+	Last night, I brewed a new %beerstyle which I hope will be ready soon.
+%%beerstyle
+	wheat beer
+	porter
+	IPA
+	pale ale
+	stout
+	sour mash
+%%duran
+	%greeting %package
+	%greeting %durannight %fin
+	%starts
+%%durannight
+	Last night I showed Master Chief a couple of my own tricks.  He was impressed.
+	I spent last night playing %videogame to the music of %musicartist.
+	The bagel shop was filled with %bagelshop last night.
+%%bagelshop
+	delectible edibles
+	hot treats
+	mouthwatering desserts
+	delicious baguettes
+	many enticing varieties
+%%videogame
+	HALO
+	Elder Scrolls
+	Modern Warfare
+	SOCOM
+	Dragon Age
+	Pong
+	iPhone games
+%%peopletypes
+	everyone
+	Earthlings
+	fellow RRS'ers
+	comrades
+	co-workers
+	gentlemen
+	ladies
+	fellas
+%%package
+	Have any of you seen my package?  Of course you have!
+	Please keep your hands off my package.  It's fragile.
+	Last night, the UPS guy tossed my package off his truck.  What a mess!
+	The Fedex guy gets points for yesterday's expert package handling.
+%%owen
+	Morning.
+%%jon
+	%greeting %jonnight
+	%starts
+%%jonnight
+	Last night I played a round of Ultimate and %gameresult. %fin
+	I spent an evening in headphones, contemplating %musicartist. %fin
+%%musicartist
+	Ani Difranco
+	The beastie Boys
+	Kid Rock
+	Rebecca Black
+	Daft Punk
+%%gameresult
+	I think I pulled a hammy
+	we won in overtime
+	I still have grass between my teeth
+	my arms are so sore
+%%nate
+	%greeting  %natenight %fin
+	%starts
+%%natenight
+	Last night I dove %divelocation and discovered %treasure.
+	I spent the evening planning the next %meetupgroup event.
+	#Lrfgreqnl riravat, jr znqr enoovg fgrj!
+%%divelocation
+	in an abandoned quarry
+	off of a Micronesian island
+	in my neighbor's pool
+	in the Schuylkill river
+	in the Caribbean
+%%treasure
+	a "new" pair of boots
+	the watery grave of Bluebeard
+	several gold Doubloons
+	a sunken nuclear vessel
+	the skeletons of several prior clients
+%%meetupgroup
+	PHP meetup
+	PANMA
+	NRA
+	Drupal meetup
+	RRS BBQ
+%%greg
+	%greeting %gregnight
+%%gregnight
+	Last night I rode my bike to %location, but today %feelingood. %fin
+	I like bikes
+	Last night I got my jollies by watching hours of Tour de France reruns, and today %feelingood.
+%%location
+	North Jersey
+	Vermont
+	China
+	Albequerque
+	#%hfre'f ubhfr naq %perrclnpgvivgl
+%%creepyactivity
+	#crrq ba gur ynja
+	#fgnerq va gur jvaqbj qhevat qvaare
+	#fgbyr n erq-unggrq tneqra tabzr
+	#chg gur synt hc ba gur znvyobk
+	#fhcretyhrq gur sebag qbbe fuhg
+	#yrsg n "fbhirave" ba gur cbepu va n oebja cncre ont
+	#ohevrq... fbzrguvat... va gur onpx lneq
+%%user
+	Nate
+	Greg
+	Owen
+	Michael
+	Mark
+	Jon
+	Duran
+%%feelingood
+	I feel great
+	I feel much better
+	I'm doing pretty good
+	I'm ready for more
+%%morningactivity
+	a nice cup of coffee.
+        #n cvyr bs onpba.
+        #n fubeg fgnpx bs cnapnxrf.
+        #n jnyx guebhtu gur jbbqf.
+        #n cvrprshy fgergpu ol gur ynxr.
+        #n tbbq pyvrag fgnoovat.
+        #n urnegl oernxsnfg fgbhg.

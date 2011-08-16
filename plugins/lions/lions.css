@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.lions button {
+	border: 0px;
+	background: transparent url(/css/images/sound.png) scroll no-repeat;
+	text-indent: -3000px;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.lions .content {
+	background-image: url(/plugins/lions/lions.png);
+	background-repeat: no-repeat;
+	color: black;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px white;
+}

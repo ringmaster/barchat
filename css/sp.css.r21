@@ -1,0 +1,532 @@
+html {
+	background-color: white;
+}
+
+body {
+	margin: 0px 0px 63px;
+	font-family: myriad pro, tahoma;
+	font-size: 80%;
+	background-color: white;
+	color: #333;
+	/* background: white url(images/controlbar.png) fixed repeat-x; */
+}
+
+#command {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: transparent url(images/command.png) scroll repeat-x top left;
+	padding-top: 15px;
+	z-index: 100;
+}
+
+#chanbar {
+
+}
+
+#chanbar ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#chanbar ul li {
+	display: inline;
+}
+
+#chanbar ul li a {
+	display: block;
+	float: left;
+	padding: 0px;
+	border-top: 1px solid #d5d5d5;
+	border-left: 1px solid #d5d5d5;
+	border-right: 1px solid #9d9d9d;
+	background-color: #cccccc;
+	color: white;
+	padding: 2px 4px;
+	text-decoration: none;
+	margin-right: 5px;
+	background-repeat: no-repeat;
+	background-position: center;
+	outline: none;
+}
+
+#chanbar ul li:first-child a {
+	border-left: 0px;
+	padding-left: 5px;
+}
+
+#chanbar ul li.active a {
+	background-color: #aabbaa;
+	border-top: 1px solid #d5d5d5;
+	border-left: 1px solid #d5d5d5;
+	border-right: 1px solid #595959;
+}
+#chanbar ul li:hover a {
+	background-color: #999999;
+	border-top: 1px solid #d5d5d5;
+	border-left: 1px solid #d5d5d5;
+	border-right: 1px solid #595959;
+}
+#chanbar ul li:hover a:hover {
+	background-color: #cccccc;
+	text-decoration: underline;
+}
+#chanbar ul li:hover a.button:hover {
+	background-color: #999999;
+}
+
+#chanbar .inroom sup {
+margin-left: 3px;
+}
+
+#chanbar .option a {
+	text-indent: -30000px;
+	width: 12px;
+}
+#chanbar .option {
+	float: right;
+}
+
+#add_chan a.button {
+	text-indent: -30000px;
+	background-image: url(images/add.png);
+	width: 12px;
+}
+#search a.button {
+	text-indent: -30000px;
+	background-image: url(images/magnifier.png);
+	width: 12px;
+}
+#volume a.button {
+	text-indent: -30000px;
+	background-image: url(images/sound_mute.png);
+	width: 14px;
+	background-position: center left;
+}
+#chanbar ul li#volume div.submenu li {
+}
+#chanbar ul li#volume div.submenu li a {
+}
+#v_ding {
+	background: transparent url(iamges/status_online.png) scroll no-repeat center left;
+}
+
+#people a.button {
+	background-image: url(images/user.png);
+}
+#files a.button {
+	background-image: url(images/page.png);
+}
+#settings a.button {
+	background-image: url(images/cog.png);
+}
+
+#chanbar ul li.active a {
+	border-top: 1px solid #aaeeaa;
+}
+#chanbar li:hover .submenu {
+	display:block;
+}
+#chanbar .submenu {
+	position: absolute;
+	background-color: #999;
+/*	bottom: 0px;
+	height: 24px; */
+	display: none;
+	bottom: 50px;
+
+	border-bottom: 1px solid #595959;
+	border-left: 1px solid #d5d5d5;
+	border-right: 1px solid #595959;
+}
+#chanbar .submenu li {
+	display: block;
+	padding: 2px;
+/*	float: left; */
+}
+
+#chanbar ul li div.submenu a {
+	background-color: #999999;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	float: none;
+	width: 100%;
+	padding: 0px;
+}
+#chanbar ul li div.submenu a:hover {
+	background-color: #cccccc;
+}
+
+#commandbutton_wrap {
+	width: 100%;
+	border-color:#CCCCCC -moz-use-text-color -moz-use-text-color;
+	border-style:solid none none;
+	border-width:1px 0 0;
+	clear: both;
+	background-color: white;
+}
+#commandline_wrap {
+	vertical-align: top;
+}
+#command_buttons {
+	width: 44px;
+	vertical-align: top;
+}
+#commandline {
+	width: 100%;
+	border: none;
+	height:1.9em;
+	line-height:1.3em;
+	padding:0.3em;	
+	background-color: white;
+	margin: 0px;
+}
+
+#command_buttons button {
+	width: 22px;
+	text-indent: -3000px;
+}
+
+#toggle_code {
+	background: #ccc url(images/script_code.png) scroll no-repeat;
+}
+#send_msg {
+	background: #ccc url(images/email_go.png) scroll no-repeat;
+}
+
+
+#login {
+	width: 50%;
+	margin-top: 4em;
+	border: 1px solid #999;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1em;
+}
+#logincap {
+	background-color: #CEB18A;
+	padding: 1em;
+}
+#loginform {
+	margin: 1em;
+}
+#loginform label {
+	display: block;
+	margin-bottom: 0.5em;
+}
+#loginform label input {
+	margin-left: 1em;
+	width: 80%;
+}
+
+#notices {
+	width: 100%;
+}
+#notices .user {
+	text-align: right;
+	padding: 5px;
+	width: 1%;
+	font-weight: bold;
+	background-color: #efefef;
+	vertical-align: top;
+	white-space: nowrap;
+}
+#notices .message {
+	border-bottom: 1px solid #efefef;
+}
+#notices .content {
+	border-left: 1px solid #dcdcdc;
+	padding: 5px;
+	vertical-align: top;
+}
+#notices .content a,
+#notices .content a:visited {
+	color: #1C79EC;
+	text-decoration: underline;
+}
+#notices .content a:hover {
+	color: #ffffff;
+	background-color: #1C79EC;
+}
+#notices .content em {
+	background-color: #D8D881;
+	font-style: italics;
+}
+#notices .content .slash {
+	font-size: smaller;
+	color: #666;
+}
+#notices tr.you td {
+	background-color: #FAFAEF;
+}
+#notices .emote .user {
+}
+#notices .emote .content {
+	font-style:italic;
+	padding-left: 20px;
+}
+
+#notices .alert {
+	background-color: #F3F8FE;
+}
+#notices .content .replaced {
+	color: #008800;
+	font-style: italic;
+}
+
+#notices .datetime {
+	font-size: smaller;
+}
+#notices .datetime .date {
+	background-color: white;
+	font-weight: bold;
+	text-align: right;
+	padding: 5px;
+	padding-top: 15px;
+	white-space: nowrap;
+}
+#notices .datetime .time {
+	border-left: 1px solid #dcdcdc;
+	padding: 5px;
+	padding-top: 15px;
+	color: #999;
+	white-space: nowrap;
+}
+
+#notices .direct {
+	border-bottom: 1px solid #efefef;
+}
+#notices .direct .user {
+	background-color: #F8EFFA;
+}
+#notices .direct .content {
+	border-left: 1px solid #dcdcdc;
+	padding: 5px;
+	background-color: #F8EFFA;
+}
+#notices .direct .content a,
+#notices .direct .content a:visited {
+	color: #1C79EC;
+	text-decoration: underline;
+}
+#notices .direct .content a:hover {
+	color: #ffffff;
+	background-color: #1C79EC;
+}
+#notices .direct .content .slash em {
+	background-color: #F8EFFA;
+	font-style: italic;
+}
+#notices .direct .content em {
+	background-color: #D8D881;
+	font-style: italic;
+}
+
+#notices .image .inner,
+#notices .choice .inner {
+	margin: 10px;
+	border: 1px solid #666;
+	background-color: white;
+	padding: 10px;
+}
+
+#notices .image .inner img {
+	vertical-align: top;
+	margin: 10px 10px 10px 0px;
+}
+#notices .choice img {
+	box-shadow: 7px 7px 8px #818181;
+	-webkit-box-shadow: 7px 7px 8px #818181;
+	-moz-box-shadow: 7px 7px 8px #818181;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(color=#818181, offX=7, offY=7, positive=true);
+}
+
+#notices .status .content {
+	background-image: url(images/status.png);
+	background-repeat: no-repeat;
+}
+#notices .status .arrow {
+	display: block;
+	float: left;
+	text-indent: -3000px;
+	width: 55px;
+}
+
+.dragout {
+	box-shadow: 7px 7px 8px #818181;
+	-webkit-box-shadow: 7px 7px 8px #818181;
+	-moz-box-shadow: 7px 7px 8px #818181;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(color=#818181, offX=7, offY=7, positive=true);
+}
+
+.toggle {
+	margin-top: 3px;
+	margin-left: 3px;
+	width: 23px;
+	height: 11px;
+	display: block;
+	background: transparent url(images/toggle.png) scroll no-repeat top left;
+	float: right;
+}
+.toggle.on {}
+.toggle.off{
+	background-position: 0px -11px;
+}
+
+
+#notices .hidedate .date {
+	visibility: hidden;
+}
+
+#more_arrow {
+	position: fixed;
+	bottom: 50px;
+	left: 100px;
+	display: none;
+}
+#more_arrow div {
+	background: transparent url(images/more_arrow.png) scroll no-repeat;
+	width: 22px;
+	height: 35px;
+}
+
+#names {
+	display: none;
+	clear: both;
+	border-top: 1px solid #cccccc;
+	padding: 3px;
+	background-color: #efefef;
+}
+
+#names .active {
+	padding-left: 20px;
+	background: transparent url(images/user.png) scroll no-repeat;
+}
+#names .inactive {
+	color: #999999;
+}
+#names .lastactive {
+	margin-left: 20px;
+}
+
+#names .checkpoll {
+	font-size: xx-small;
+	width: 100%;
+	background-color: #ddd;
+	display: block;
+	margin: 3px 0px 0px;
+	text-align: center;
+	height: 1em;
+}
+#names .checkpoll.caution {
+	background-color: #fdd;
+}
+
+.hoverinfo {
+	font-size: smaller;
+	background-color: #C8DFFB;
+	padding: 2px;
+	margin-left: 20px;
+}
+.info {
+	background-color: #666666;
+	padding: 20px;
+	color: white;
+	border: 3px double #999999;
+	display: none;
+	position: fixed;
+	top: 10px;
+	width: 80%;
+	left: 10%;
+}
+
+.woodshed .content {
+	background-image: url(/effects/woodshed/woodshed_bg.png);
+	background-repeat: repeat-x;
+	color: black;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px white;
+}
+
+.guitar button {
+	border: 0px;
+	background: transparent url(images/sound.png) scroll no-repeat;
+	text-indent: -3000px;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.guitar .content {
+	background-image: url(/effects/guitar/guitar.png);
+	background-repeat: no-repeat;
+	color: black;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px white;
+}
+
+#uploads,
+#options {
+	display: none;
+	clear: both;
+	border-top: 1px solid #cccccc;
+	padding: 3px;
+	background-color: #efefef;
+}
+#options {
+	height: 150px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#holiday {
+	background-image: url(/effects/holiday/lights.png);
+	position: fixed;
+	top: 0px;
+	height: 50px;
+	width: 100%;
+}
+
+#optionstable h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#optionstable h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #666;
+	margin-left: 20px;
+}
+
+#optionstable tr.optionrow {
+	border-bottom: 1px solid #ddd;
+}
+#optionstable tr.optionrow td:first-child {
+	padding-left: 40px;
+}
+
+.calc .content .true {
+	color: #009900;
+	font-weight: bold;
+}
+.calc .content .false {
+	color: #999;
+}
+
+#toolpanel {
+	position: fixed;
+	height: 100%;
+	top: 0px;
+	right: 0px;
+	width: 0px;
+	background-color: white;
+	opacity: 0.5;
+	z-index: 80;
+	padding-top: 50px;
+}
+
+#uploader {
+	float: right;
+}

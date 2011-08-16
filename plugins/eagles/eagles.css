@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.eagles button {
+	border: 0px;
+	background: transparent url(/css/images/sound.png) scroll no-repeat;
+	text-indent: -3000px;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.eagles .content {
+	background: url(/plugins/eagles/eagles.png) bottom left no-repeat;
+	color: black;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px white;
+}
+
+.eagles .content .last_game,
+.eagles .content .next_game {
+	clear:both;
+}
+.eagles .content .last_game div,
+.eagles .content .next_game div {
+	float:left;
+	padding-right:10px;
+	font-weight:normal;
+	font-size:.9em;
+}
+
+.eagles .content .next_game .date {
+	font-weight:bold;
+	font-size:1em;
+}
+
+.eagles .content .last_game .score.loss {
+	font-weight:bold;
+	color:red;
+	font-size:1em;
+}
+
+.eagles .content .last_game .score.win {
+	font-weight:bold;
+	color:green;
+	font-size:1em;
+}

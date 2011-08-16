@@ -1,0 +1,174 @@
+.card {
+	background: #eee url(cards.png);
+	width: 71px;
+	height: 96px;
+	display: block;
+	text-indent: -5000px;
+	float: left;
+	margin: 0px 5px 5px 0px;
+	box-shadow: 3px 3px 3px #818181;
+	-webkit-box-shadow: 3px 3px 3px #818181;
+	-moz-box-shadow: 3px 3px 3px #818181;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(color=#818181, offX=3, offY=3, positive=true);
+}
+
+.card.C1 {
+	background-position: -72px 0px;
+}
+.card.C2 {
+	background-position: -144px 0px;
+}
+.card.C3 {
+	background-position: -216px 0px;
+}
+.card.C4 {
+	background-position: -288px 0px;
+}
+.card.C5 {
+	background-position: -360px 0px;
+}
+.card.C6 {
+	background-position: -432px 0px;
+}
+.card.C7 {
+	background-position: -504px 0px;
+}
+.card.C8 {
+	background-position: -576px 0px;
+}
+.card.C9 {
+	background-position: -648px 0px;
+}
+.card.C0 {
+	background-position: -720px 0px;
+}
+.card.CJ {
+	background-position: -792px 0px;
+}
+.card.CQ {
+	background-position: -864px 0px;
+}
+.card.CK {
+	background-position: -936px 0px;
+}
+
+.card.S1 {
+	background-position: -72px -96px;
+}
+.card.S2 {
+	background-position: -144px -96px;
+}
+.card.S3 {
+	background-position: -216px -96px;
+}
+.card.S4 {
+	background-position: -288px -96px;
+}
+.card.S5 {
+	background-position: -360px -96px;
+}
+.card.S6 {
+	background-position: -432px -96px;
+}
+.card.S7 {
+	background-position: -504px -96px;
+}
+.card.S8 {
+	background-position: -576px -96px;
+}
+.card.S9 {
+	background-position: -648px -96px;
+}
+.card.S0 {
+	background-position: -720px -96px;
+}
+.card.SJ {
+	background-position: -792px -96px;
+}
+.card.SQ {
+	background-position: -864px -96px;
+}
+.card.SK {
+	background-position: -936px -96px;
+}
+
+
+.card.H1 {
+	background-position: -72px -192px;
+}
+.card.H2 {
+	background-position: -144px -192px;
+}
+.card.H3 {
+	background-position: -216px -192px;
+}
+.card.H4 {
+	background-position: -288px -192px;
+}
+.card.H5 {
+	background-position: -360px -192px;
+}
+.card.H6 {
+	background-position: -432px -192px;
+}
+.card.H7 {
+	background-position: -504px -192px;
+}
+.card.H8 {
+	background-position: -576px -192px;
+}
+.card.H9 {
+	background-position: -648px -192px;
+}
+.card.H0 {
+	background-position: -720px -192px;
+}
+.card.HJ {
+	background-position: -792px -192px;
+}
+.card.HQ {
+	background-position: -864px -192px;
+}
+.card.HK {
+	background-position: -936px -192px;
+}
+
+.card.D1 {
+	background-position: -72px -288px;
+}
+.card.D2 {
+	background-position: -144px -288px;
+}
+.card.D3 {
+	background-position: -216px -288px;
+}
+.card.D4 {
+	background-position: -288px -288px;
+}
+.card.D5 {
+	background-position: -360px -288px;
+}
+.card.D6 {
+	background-position: -432px -288px;
+}
+.card.D7 {
+	background-position: -504px -288px;
+}
+.card.D8 {
+	background-position: -576px -288px;
+}
+.card.D9 {
+	background-position: -648px -288px;
+}
+.card.D0 {
+	background-position: -720px -288px;
+}
+.card.DJ {
+	background-position: -792px -288px;
+}
+.card.DQ {
+	background-position: -864px -288px;
+}
+.card.DK {
+	background-position: -936px -288px;
+}
